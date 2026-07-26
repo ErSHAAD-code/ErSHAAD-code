@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#08111f"/>
+<stop offset="100%" stop-color="#141d33"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#00E5FF"/>
+<stop offset="100%" stop-color="#B026FF"/>
+</linearGradient>
+<style>
+text{font-family:Segoe UI,Arial,sans-serif;fill:#eef6ff}
+.title{font-size:34px;font-weight:700}
+.head{font-size:26px;font-weight:700}
+.body{font-size:20px}
+.small{font-size:18px}
+.status{fill:#6CFF72}
+</style>
+</defs>
+
+<rect width="1400" height="1200" fill="url(#bg)"/>
+<rect x="40" y="40" width="1320" height="1120" rx="24" fill="#101827" stroke="url(#accent)" stroke-width="3"/>
+
+<circle cx="80" cy="75" r="8" fill="#ff5f56"/>
+<circle cx="105" cy="75" r="8" fill="#ffbd2e"/>
+<circle cx="130" cy="75" r="8" fill="#27c93f"/>
+
+<text x="700" y="85" text-anchor="middle" class="title">CONTACT TERMINAL</text>
+<text x="1210" y="85" class="small">NETWORK ONLINE</text>
+
+<line x1="70" y1="120" x2="1330" y2="120" stroke="#2d3b5d"/>
+
+<text x="90" y="170" class="head">$ whoami</text>
+<text x="120" y="215" class="body">Mohd Shaad</text>
+<text x="150" y="255" class="body">💻 Software Engineer</text>
+<text x="150" y="290" class="body">⚙ Data Engineer</text>
+<text x="150" y="325" class="body">🤖 Machine Learning Engineer</text>
+
+<line x1="90" y1="350" x2="1310" y2="350" stroke="#2d3b5d"/>
+
+<text x="90" y="395" class="head">$ contact --all</text>
+<text x="120" y="440" class="body">📧 Email : mohdshaad.861@gmail.com</text>
+<text x="120" y="475" class="body">☎ Phone : +91 9026130194</text>
+<text x="120" y="510" class="body">💼 LinkedIn : linkedin.com/in/mohd-shaad-357824330</text>
+<text x="120" y="545" class="body">🐙 GitHub : github.com/ErSHAAD-code</text>
+<text x="120" y="580" class="body">📄 Resume : GitHub Resume PDF</text>
+
+<line x1="90" y1="610" x2="1310" y2="610" stroke="#2d3b5d"/>
+
+<text x="90" y="655" class="head">$ currently_learning</text>
+<text x="120" y="700" class="body">☕ Java   •   🍃 Spring Boot   •   🧠 Machine Learning</text>
+<text x="120" y="735" class="body">⚡ Backend Engineering   •   📊 DSA   •   ☁ Cloud Technologies</text>
+
+<line x1="90" y1="765" x2="1310" y2="765" stroke="#2d3b5d"/>
+
+<text x="90" y="810" class="head">$ available_for</text>
+<text x="120" y="855" class="body">🟢 Software Engineering Internship</text>
+<text x="120" y="890" class="body">🟢 Data Engineering Internship</text>
+<text x="120" y="925" class="body">🟢 Machine Learning Internship</text>
+<text x="120" y="960" class="body">🟢 Backend Development &amp; Open Source</text>
+
+<line x1="90" y1="990" x2="1310" y2="990" stroke="#2d3b5d"/>
+
+<text x="90" y="1035" class="head">$ hire --candidate MohdShaad</text>
+<rect x="120" y="1065" width="900" height="22" rx="11" fill="#233659"/>
+<rect x="120" y="1065" width="900" height="22" rx="11" fill="url(#accent)"/>
+<text x="1040" y="1082" class="small">100%</text>
+<text x="120" y="1125" class="head status">Ready for New Opportunities 🚀</text>
+
+</svg>
