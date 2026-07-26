@@ -1,27 +1,36 @@
 <div align="center">
 
-# <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&random=false&width=800&height=80&lines=MOHD+SHAAD" />
+# 👋 Hi, I'm Mohd Shaad
 
-### 💻 Software Engineer • 📊 Data Engineer • 📈 Data Analyst
+### Software Engineer • Data Engineer • Data Analyst
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+Scalable+Software;Designing+Data+Pipelines;Creating+Insightful+Dashboards;Learning+System+Design;Always+Building+Something+Awesome" />
+<p>
+Building scalable software, engineering reliable data systems, and transforming data into impactful insights.
+</p>
 
 <br>
 
-> **Building scalable software, intelligent data systems, and AI-powered applications that solve real-world problems.**
+<p>
+<a href="https://github.com/ErSHAAD-code">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-</div>
+<a href="YOUR_LINKEDIN_LINK">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
----
+<a href="mailto:YOUR_EMAIL">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=ErSHAAD-code&label=Profile+Views&color=blueviolet&style=for-the-badge"/>
-
-<img src="https://img.shields.io/github/followers/ErSHAAD-code?style=for-the-badge&color=0ea5e9"/>
-
-<img src="https://img.shields.io/github/stars/ErSHAAD-code?affiliations=OWNER&style=for-the-badge&color=9333ea"/>
+<a href="YOUR_PORTFOLIO">
+<img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge"/>
+</a>
 
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=ErSHAAD-code&style=for-the-badge&color=blueviolet"/>
+
+</div>
 
 ---
