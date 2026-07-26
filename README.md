@@ -38,3 +38,8 @@
 <p align="center">
   <img src="./assets/certification-vault.svg" width="100%" />
 </p>
+
+
+<p align="center">
+  <img src="./assets/experience-timeline.svg" width="100%" />
+</p>
