@@ -62,5 +62,5 @@
 
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Developer OS Footer" />
+  <img src="./assets/footer-stage1.svg" width="100%" alt="Developer OS Footer" />
 </p>
