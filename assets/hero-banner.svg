@@ -1,66 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1600"
-     height="500"
-     viewBox="0 0 1600 500">
-
-<style>
-
-@keyframes glow{
-0%{opacity:.3;}
-50%{opacity:1;}
-100%{opacity:.3;}
-}
-
-@keyframes pulse{
-0%{transform:scale(1);}
-50%{transform:scale(1.03);}
-100%{transform:scale(1);}
-}
-
-.title{
-font-family:Segoe UI;
-font-size:64px;
-font-weight:bold;
-fill:white;
-animation:pulse 4s infinite;
-transform-origin:center;
-}
-
-.subtitle{
-font-family:Segoe UI;
-font-size:24px;
-fill:#22D3EE;
-}
-
-.border{
-animation:glow 3s infinite;
-}
-
-</style>
+<svg
+width="1600"
+height="500"
+viewBox="0 0 1600 500"
+fill="none"
+xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="bg"
-x1="0%"
-y1="0%"
-x2="100%"
-y2="100%">
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
 
-<stop offset="0%" stop-color="#09090B"/>
+<stop offset="0%" stop-color="#09090f"/>
 
 <stop offset="100%" stop-color="#111827"/>
 
 </linearGradient>
 
-<linearGradient id="borderGradient">
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
 
-<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="0%" stop-color="#7C3AED"/>
 
-<stop offset="50%" stop-color="#22D3EE"/>
+<stop offset="50%" stop-color="#06B6D4"/>
 
 <stop offset="100%" stop-color="#EC4899"/>
 
 </linearGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="0"
+stdDeviation="12"
+flood-color="#7C3AED"
+flood-opacity="0.45"/>
+
+</filter>
+
+<filter id="glow">
+
+<feDropShadow
+dx="0"
+dy="0"
+stdDeviation="6"
+flood-color="#22D3EE"
+flood-opacity="0.9"/>
+
+</filter>
 
 </defs>
 
@@ -70,83 +55,80 @@ height="500"
 fill="url(#bg)"/>
 
 <rect
-x="25"
-y="25"
-width="1550"
-height="450"
-rx="20"
-fill="none"
-stroke="url(#borderGradient)"
-stroke-width="2"
-class="border"/>
+x="22"
+y="22"
+width="1556"
+height="456"
+rx="18"
+stroke="url(#border)"
+stroke-width="3"
+filter="url(#shadow)"
+fill="transparent"/>
 
-<circle cx="70" cy="70" r="8" fill="#ff5f56"/>
-<circle cx="100" cy="70" r="8" fill="#ffbd2e"/>
-<circle cx="130" cy="70" r="8" fill="#27c93f"/>
+<circle
+cx="55"
+cy="52"
+r="8"
+fill="#FF5F56"/>
 
-<text
-x="800"
-y="180"
-text-anchor="middle"
-class="title">
+<circle
+cx="83"
+cy="52"
+r="8"
+fill="#FFBD2E"/>
 
-MOHD SHAAD
-
-</text>
-
-<text
-x="800"
-y="230"
-text-anchor="middle"
-class="subtitle">
-
-Software Engineer • Data Engineer • Data Analyst
-
-</text>
+<circle
+cx="111"
+cy="52"
+r="8"
+fill="#27C93F"/>
 
 <text
-x="800"
-y="285"
-text-anchor="middle"
-class="subtitle">
 
-Initializing Developer Environment...
+x="145"
 
-</text>
-     <rect
-x="520"
-y="295"
-width="560"
-height="16"
-rx="8"
-fill="#222"/>
+y="58"
 
-<rect
-x="520"
-y="295"
-width="0"
-height="16"
-rx="8"
-fill="#22D3EE">
+fill="#94A3B8"
 
-<animate
-attributeName="width"
-values="0;560"
-dur="3s"
-fill="freeze"/>
+font-size="20"
 
-</rect>
-
-<text
-x="800"
-y="340"
-text-anchor="middle"
-font-size="18"
-fill="#A855F7"
 font-family="Segoe UI">
 
-Loading Developer Modules...
+Developer OS v4.0
 
 </text>
 
-</svg>
+<circle
+cx="1480"
+cy="52"
+r="8"
+fill="#22C55E">
+
+<animate
+
+attributeName="opacity"
+
+values="1;0.2;1"
+
+dur="1.3s"
+
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+
+x="1500"
+
+y="58"
+
+fill="#22C55E"
+
+font-size="18"
+
+font-family="Segoe UI">
+
+ONLINE
+
+</text>
