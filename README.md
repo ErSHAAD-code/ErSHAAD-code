@@ -48,3 +48,14 @@
 <p align="center">
   <img src="./assets/contact-terminal.svg" width="100%" />
 </p>
+
+
+<h2 align="center">🐍 Contribution Activity</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/ErSHAAD-code/ErSHAAD-code/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
+</p>
