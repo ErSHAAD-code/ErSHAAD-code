@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#040714"/>
+<stop offset="100%" stop-color="#141c3d"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#00E5FF"/>
+<stop offset="100%" stop-color="#A020F0"/>
+</linearGradient>
+<filter id="g"><feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00E5FF" flood-opacity=".35"/></filter>
+</defs>
+
+<rect width="1600" height="900" fill="url(#bg)"/>
+
+<rect x="55" y="45" width="1490" height="810" rx="26"
+fill="#0B1023" fill-opacity=".84"
+stroke="url(#accent)" stroke-width="2.5"
+filter="url(#g)"/>
+
+<rect x="55" y="45" width="1490" height="62" rx="26" fill="#111827"/>
+<circle cx="90" cy="76" r="7" fill="#FF5F56"/>
+<circle cx="112" cy="76" r="7" fill="#FFBD2E"/>
+<circle cx="134" cy="76" r="7" fill="#28C840"/>
+
+<text x="800" y="82" text-anchor="middle"
+font-family="Arial" font-size="30" font-weight="bold"
+fill="white">Developer OS v4.0 Shutdown Terminal</text>
+
+<rect x="1280" y="58" width="210" height="34" rx="17"
+fill="#163420" stroke="#28C840"/>
+<text x="1385" y="80" text-anchor="middle"
+font-family="Arial" font-size="16"
+font-weight="bold" fill="#B7FFCB">
+AVAILABLE FOR HIRE
+</text>
+
+<text x="800" y="155" text-anchor="middle"
+font-family="Arial" font-size="40"
+font-weight="bold"
+fill="white">
+SESSION COMPLETE
+</text>
+
+<rect x="270" y="180" width="1060" height="18" rx="9" fill="#243347"/>
+<rect x="270" y="180" width="1060" height="18" rx="9" fill="#22C55E"/>
+<text x="800" y="225" text-anchor="middle"
+font-family="Arial" font-size="18"
+fill="#A6F7BE">100% PORTFOLIO READY</text>
+
+<g font-family="Arial" font-size="22" fill="#E7F5FF">
+<text x="120" y="290">[OK] Hero Banner</text>
+<text x="120" y="325">[OK] Dashboard</text>
+<text x="120" y="360">[OK] Tech Arsenal</text>
+<text x="120" y="395">[OK] Projects</text>
+<text x="120" y="430">[OK] Certifications</text>
+<text x="120" y="465">[OK] Experience</text>
+<text x="120" y="500">[OK] Contact</text>
+<text x="120" y="535">[OK] GitHub Profile Ready</text>
+</g>
+<rect x="900" y="250" width="250" height="110" rx="18" fill="#16253E" stroke="#00E5FF"/><text x="1025" y="313" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">Software Engineer</text><rect x="1180" y="250" width="250" height="110" rx="18" fill="#16253E" stroke="#00E5FF"/><text x="1305" y="313" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">Data Engineer</text><rect x="900" y="390" width="250" height="110" rx="18" fill="#16253E" stroke="#00E5FF"/><text x="1025" y="453" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">ML Engineer</text><rect x="1180" y="390" width="250" height="110" rx="18" fill="#16253E" stroke="#00E5FF"/><text x="1305" y="453" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">Data Analyst</text>
+<text x="800" y="555" text-anchor="middle" fill="#4DEBFF" font-family="Arial" font-size="28" font-weight="bold">TECH STACK</text>
+<rect x="90" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="175" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Python</text><rect x="270" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="355" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Java</text><rect x="450" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="535" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Spring Boot</text><rect x="630" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="715" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">SQL</text><rect x="810" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="895" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">AI/ML</text><rect x="990" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="1075" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Cloud</text><rect x="1170" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="1255" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Git</text><rect x="1350" y="585" width="170" height="42" rx="21" fill="#132238" stroke="#7A5CFF"/><text x="1435" y="612" text-anchor="middle" font-family="Arial" font-size="17" fill="white">Power BI</text>
+<rect x="120" y="665" width="1360" height="145" rx="16" fill="#091322" stroke="#00E5FF"/>
+
+<text x="145" y="700" font-family="Courier New" font-size="22" fill="#4DEBFF">$ shutdown developer-os</text>
+<text x="145" y="730" font-family="Courier New" font-size="18" fill="#CFEAFF">[INFO] Saving portfolio...</text>
+<text x="145" y="755" font-family="Courier New" font-size="18" fill="#CFEAFF">[INFO] Syncing GitHub profile...</text>
+<text x="145" y="780" font-family="Courier New" font-size="18" fill="#9BF3B0">[SUCCESS] Session completed successfully.</text>
+
+<text x="1090" y="730" font-family="Arial" font-size="22" font-weight="bold" fill="white">Thank you for visiting</text>
+<text x="1090" y="758" font-family="Arial" font-size="22" font-weight="bold" fill="#4DEBFF">Developer OS</text>
+<text x="1090" y="790" font-family="Arial" font-size="18" fill="#D6E7FF">— Mohd Shaad</text>
+</svg>
