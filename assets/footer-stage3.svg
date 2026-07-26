@@ -3,67 +3,80 @@
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0%" stop-color="#050816"/>
-<stop offset="100%" stop-color="#151F38"/>
+<stop offset="100%" stop-color="#121b37"/>
 </linearGradient>
-<linearGradient id="frame" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0%" stop-color="#00E5FF"/>
-<stop offset="100%" stop-color="#8B5CF6"/>
+<stop offset="100%" stop-color="#A020F0"/>
 </linearGradient>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+<feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00E5FF" flood-opacity="0.25"/>
+</filter>
 </defs>
+
 <rect width="1600" height="900" fill="url(#bg)"/>
-<rect x="60" y="50" width="1480" height="800" rx="28" fill="#0B1023" fill-opacity="0.72" stroke="url(#frame)" stroke-width="2"/>
 
-<text x="800" y="100" text-anchor="middle" fill="white" font-family="Arial" font-size="34" font-weight="bold">Developer OS Session Summary</text>
-<text x="800" y="155" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="38" font-weight="bold">SESSION SUMMARY</text>
+<rect x="70" y="60" width="1460" height="780" rx="28"
+fill="#0B1023" fill-opacity="0.78"
+stroke="url(#border)" stroke-width="2.5"
+filter="url(#shadow)"/>
 
-<rect x="320" y="180" width="960" height="18" rx="9" fill="#233347"/>
-<rect x="320" y="180" width="960" height="18" rx="9" fill="#22C55E"/>
-<text x="800" y="225" text-anchor="middle" fill="#9FE7B3" font-family="Arial" font-size="20">100% COMPLETE</text>
+<circle cx="110" cy="100" r="7" fill="#FF5F56"/>
+<circle cx="132" cy="100" r="7" fill="#FFBD2E"/>
+<circle cx="154" cy="100" r="7" fill="#28C840"/>
 
-<g font-family="Arial" font-size="21" fill="#D7EEFF">
-<text x="170" y="290">[OK] Hero Banner Initialized</text>
-<text x="170" y="325">[OK] Dashboard Loaded</text>
-<text x="170" y="360">[OK] Tech Arsenal Loaded</text>
-<text x="170" y="395">[OK] GitHub Intelligence Synced</text>
-<text x="170" y="430">[OK] Project Center Indexed</text>
-<text x="170" y="465">[OK] Certification Vault Verified</text>
-<text x="170" y="500">[OK] Experience Imported</text>
-<text x="170" y="535">[OK] Contact Terminal Connected</text>
+<text x="800" y="105" text-anchor="middle"
+font-family="Arial" font-size="34"
+font-weight="bold" fill="white">
+Developer OS Session Summary
+</text>
+
+<rect x="1260" y="82" width="180" height="34" rx="17"
+fill="#13351E" stroke="#28C840"/>
+<text x="1350" y="104" text-anchor="middle"
+font-family="Arial" font-size="17"
+font-weight="bold" fill="#A6F7BE">
+SYSTEM READY
+</text>
+
+<text x="800" y="170" text-anchor="middle"
+font-family="Arial" font-size="42"
+font-weight="bold"
+fill="#FFFFFF">
+SESSION SUMMARY
+</text>
+
+<rect x="300" y="200" width="1000" height="18" rx="9" fill="#243347"/>
+<rect x="300" y="200" width="1000" height="18" rx="9" fill="#22C55E"/>
+
+<text x="800" y="245" text-anchor="middle"
+font-family="Arial" font-size="20"
+fill="#A8F0BE">
+100% COMPLETE
+</text>
+
+<g font-family="Arial" font-size="22" fill="#E5F5FF">
+<text x="150" y="310">[OK] Hero Banner</text>
+<text x="150" y="350">[OK] Dashboard</text>
+<text x="150" y="390">[OK] Tech Arsenal</text>
+<text x="150" y="430">[OK] GitHub Stats</text>
+<text x="150" y="470">[OK] Projects</text>
+<text x="150" y="510">[OK] Certifications</text>
+<text x="150" y="550">[OK] Experience</text>
+<text x="150" y="590">[OK] Contact</text>
 </g>
-
-<!-- Tech capsules -->
-<text x="800" y="610" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="28" font-weight="bold">TECHNOLOGY STACK</text>
-
-<rect x="180" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="240" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Python</text>
-<rect x="340" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="400" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Java</text>
-<rect x="480" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="540" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Spring Boot</text>
-<rect x="700" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="760" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">SQL</text>
-<rect x="840" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="900" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">AI / ML</text>
-<rect x="1000" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="1060" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Cloud</text>
-<rect x="1140" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="1200" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Git</text>
-<rect x="1260" y="645" width="120" height="42" rx="21" fill="#132238" stroke="#00E5FF"/>
-<text x="1320" y="672" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="18">Power BI</text>
-
-<text x="800" y="745" text-anchor="middle" fill="#4DEBFF" font-family="Arial" font-size="26" font-weight="bold">
-MISSION
-</text>
-
-<text x="800" y="780" text-anchor="middle" fill="#D8EEFF" font-family="Arial" font-size="22">
-Code with purpose. Build with passion.
-</text>
-
-<text x="800" y="812" text-anchor="middle" fill="#9BB7D3" font-family="Arial" font-size="18">
-Building scalable software, intelligent systems, and data-driven solutions.
-</text>
-
-<text x="800" y="845" text-anchor="middle" fill="#6B7FA3" font-family="Arial" font-size="18">
-Stage 3 • Technology Capsules & Mission
-</text>
+<rect x="930" y="285" width="240" height="110" rx="18" fill="#121C34" stroke="#00E5FF"/>
+<text x="1050" y="345" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">Software Engineer</text>
+<rect x="1200" y="285" width="240" height="110" rx="18" fill="#121C34" stroke="#00E5FF"/>
+<text x="1320" y="345" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">Data Engineer</text>
+<rect x="930" y="430" width="240" height="110" rx="18" fill="#121C34" stroke="#00E5FF"/>
+<text x="1050" y="476" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">Machine Learning</text>
+<text x="1050" y="502" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">Engineer</text>
+<rect x="1200" y="430" width="240" height="110" rx="18" fill="#121C34" stroke="#00E5FF"/>
+<text x="1320" y="490" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">Data Analyst</text>
+<text x="800" y="655" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="28" font-weight="bold">TECH STACK</text>
+<rect x="130" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="205" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Python</text><rect x="300" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="375" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Java</text><rect x="470" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="545" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Spring</text><rect x="640" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="715" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">SQL</text><rect x="810" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="885" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">AI/ML</text><rect x="980" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="1055" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Cloud</text><rect x="1150" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="1225" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Git</text><rect x="1320" y="690" width="150" height="42" rx="21" fill="#16253E" stroke="#7A5CFF"/><text x="1395" y="717" text-anchor="middle" fill="#EAF8FF" font-family="Arial" font-size="17">Power BI</text>
+<text x="800" y="785" text-anchor="middle" fill="#4DEBFF" font-family="Arial" font-size="28" font-weight="bold">MISSION</text>
+<text x="800" y="820" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="22">Code with purpose. Build with passion.</text>
+<text x="800" y="850" text-anchor="middle" fill="#A8BCD8" font-family="Arial" font-size="18">Building scalable software and intelligent systems.</text>
 </svg>
