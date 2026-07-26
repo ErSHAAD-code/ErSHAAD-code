@@ -58,6 +58,16 @@
     alt="GitHub Contribution Snake"
     width="100%"
   />
+</p> 
+
+
+<p align="center">
+  <img
+    src="./assets/footer-stage4.svg"
+    width="100%"
+    alt="Developer OS v4.0 Shutdown Terminal"
+    width="100%"
+  />
 </p>
 
 
