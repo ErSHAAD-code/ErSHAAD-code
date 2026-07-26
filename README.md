@@ -43,3 +43,8 @@
 <p align="center">
   <img src="./assets/experience-timeline.svg" width="100%" />
 </p>
+
+
+<p align="center">
+  <img src="./assets/contact-terminal.svg" width="100%" />
+</p>
