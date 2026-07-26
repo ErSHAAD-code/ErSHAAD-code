@@ -71,18 +71,3 @@
 </p>
 
 
-<p align="center">
-  <img src="./assets/footer-stage1.svg" width="100%" alt="Developer OS Footer" />
-</p>
-
-
-
-
-
-<p align="center">
-  <img
-    src="./assets/footer-stage3.svg"
-    width="100%"
-    alt="Developer OS Session Summary Stage 3"
-  />
-</p>
