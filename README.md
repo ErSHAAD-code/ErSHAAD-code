@@ -8,4 +8,7 @@
 </p>
 
 
+<p align="center">
+  <img src="./assets/tech-arsenal.svg" width="100%" />
+</p>
 
