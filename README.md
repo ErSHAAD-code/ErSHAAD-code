@@ -3,5 +3,9 @@
 </p>
 
 
+<p align="center">
+  <img src="./assets/developer-dashboard.svg" width="100%" />
+</p>
+
 
 
