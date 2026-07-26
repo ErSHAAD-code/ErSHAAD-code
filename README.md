@@ -33,3 +33,8 @@
 <p align="center">
   <img src="./assets/project-command-center.svg" width="100%" />
 </p>
+
+
+<p align="center">
+  <img src="./assets/certification-vault.svg" width="100%" />
+</p>
