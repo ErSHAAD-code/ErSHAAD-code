@@ -28,3 +28,8 @@
     width="49%"
   />
 </p>
+
+
+<p align="center">
+  <img src="./assets/project-command-center.svg" width="100%" />
+</p>
