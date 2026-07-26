@@ -115,39 +115,3 @@ Initializing Developer Environment...
 </text>
 
 </svg>
-
-<rect
-x="520"
-y="295"
-width="560"
-height="16"
-rx="8"
-fill="#222"/>
-
-<rect
-x="520"
-y="295"
-width="0"
-height="16"
-rx="8"
-fill="#22D3EE">
-
-<animate
-attributeName="width"
-values="0;560"
-dur="3s"
-fill="freeze"/>
-
-</rect>
-
-<text
-x="800"
-y="340"
-text-anchor="middle"
-font-size="18"
-fill="#A855F7"
-font-family="Segoe UI">
-
-Loading Developer Modules...
-
-</text>
