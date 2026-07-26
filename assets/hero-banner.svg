@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="500"
+     viewBox="0 0 1600 500">
+
+<style>
+
+@keyframes glow{
+0%{opacity:.3;}
+50%{opacity:1;}
+100%{opacity:.3;}
+}
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.03);}
+100%{transform:scale(1);}
+}
+
+.title{
+font-family:Segoe UI;
+font-size:64px;
+font-weight:bold;
+fill:white;
+animation:pulse 4s infinite;
+transform-origin:center;
+}
+
+.subtitle{
+font-family:Segoe UI;
+font-size:24px;
+fill:#22D3EE;
+}
+
+.border{
+animation:glow 3s infinite;
+}
+
+</style>
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#09090B"/>
+
+<stop offset="100%" stop-color="#111827"/>
+
+</linearGradient>
+
+<linearGradient id="borderGradient">
+
+<stop offset="0%" stop-color="#8B5CF6"/>
+
+<stop offset="50%" stop-color="#22D3EE"/>
+
+<stop offset="100%" stop-color="#EC4899"/>
+
+</linearGradient>
+
+</defs>
+
+<rect
+width="1600"
+height="500"
+fill="url(#bg)"/>
+
+<rect
+x="25"
+y="25"
+width="1550"
+height="450"
+rx="20"
+fill="none"
+stroke="url(#borderGradient)"
+stroke-width="2"
+class="border"/>
+
+<circle cx="70" cy="70" r="8" fill="#ff5f56"/>
+<circle cx="100" cy="70" r="8" fill="#ffbd2e"/>
+<circle cx="130" cy="70" r="8" fill="#27c93f"/>
+
+<text
+x="800"
+y="180"
+text-anchor="middle"
+class="title">
+
+MOHD SHAAD
+
+</text>
+
+<text
+x="800"
+y="230"
+text-anchor="middle"
+class="subtitle">
+
+Software Engineer • Data Engineer • Data Analyst
+
+</text>
+
+<text
+x="800"
+y="285"
+text-anchor="middle"
+class="subtitle">
+
+Developer OS Initializing...
+
+</text>
+
+</svg>
