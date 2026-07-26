@@ -1,53 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
 <defs>
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#09090f"/><stop offset="100%" stop-color="#111827"/>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#09090f"/>
+<stop offset="100%" stop-color="#111827"/>
 </linearGradient>
-<linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#8b5cf6"/><stop offset="50%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#ec4899"/>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#22D3EE"/>
+<stop offset="100%" stop-color="#EC4899"/>
 </linearGradient>
-<filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<style>
-.t{font:700 34px 'Segoe UI';fill:white}
-.h{font:600 22px 'Segoe UI';fill:#22d3ee}
-.s{font:18px 'Segoe UI';fill:#d1d5db}
-</style>
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<style><![CDATA[
+.title{font:700 34px 'Segoe UI',Arial,sans-serif;fill:#fff}
+.head{font:600 22px 'Segoe UI',Arial,sans-serif;fill:#22d3ee}
+.item{font:18px 'Segoe UI',Arial,sans-serif;fill:#d1d5db}
+]]></style>
 </defs>
-<rect width="1600" height="760" fill="url(#bg)"/>
-<rect x="20" y="20" width="1560" height="720" rx="22" fill="none" stroke="url(#acc)" stroke-width="2" filter="url(#g)"/>
-<text x="800" y="70" text-anchor="middle" class="t">⚙️ TECH ARSENAL</text>
 
-<!-- cards -->
+<rect width="1600" height="760" fill="url(#bg)"/>
+<rect x="20" y="20" width="1560" height="720" rx="22" fill="none" stroke="url(#acc)" stroke-width="2" filter="url(#glow)"/>
+<text x="800" y="70" text-anchor="middle" class="title">TECH ARSENAL</text>
+
+<g id="cards">
 <rect x="60" y="110" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="85" y="150" class="h">☕ BACKEND</text>
-<text x="95" y="190" class="s">✓ Java</text>
-<text x="95" y="228" class="s">✓ Spring Boot</text>
-<text x="95" y="266" class="s">✓ REST APIs</text>
-<rect x="560" y="110" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="585" y="150" class="h">⚛️ FRONTEND</text>
-<text x="595" y="190" class="s">✓ React</text>
-<text x="595" y="228" class="s">✓ HTML5</text>
-<text x="595" y="266" class="s">✓ CSS3</text>
-<text x="595" y="304" class="s">✓ JavaScript</text>
-<rect x="1060" y="110" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="1085" y="150" class="h">🗄 DATABASE</text>
-<text x="1095" y="190" class="s">✓ MySQL</text>
-<text x="1095" y="228" class="s">✓ SQL</text>
+<text x="85" y="150" class="head">BACKEND</text>
+<text x="95" y="195" class="item">• Java</text>
+<text x="95" y="230" class="item">• Spring Boot</text>
+<text x="95" y="265" class="item">• REST APIs</text>
+
+<rect x="590" y="110" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
+<text x="615" y="150" class="head">FRONTEND</text>
+<text x="625" y="195" class="item">• React</text>
+<text x="625" y="230" class="item">• HTML5</text>
+<text x="625" y="265" class="item">• CSS3</text>
+<text x="625" y="300" class="item">• JavaScript</text>
+
+<rect x="1120" y="110" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
+<text x="1145" y="150" class="head">DATABASE</text>
+<text x="1155" y="195" class="item">• MySQL</text>
+<text x="1155" y="230" class="item">• SQL</text>
+
 <rect x="60" y="420" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="85" y="460" class="h">🤖 AI & DATA</text>
-<text x="95" y="500" class="s">✓ Python</text>
-<text x="95" y="538" class="s">✓ Pandas</text>
-<text x="95" y="576" class="s">✓ NumPy</text>
-<text x="95" y="614" class="s">✓ Power BI</text>
-<rect x="560" y="420" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="585" y="460" class="h">☁️ CLOUD</text>
-<text x="595" y="500" class="s">✓ Docker</text>
-<text x="595" y="538" class="s">✓ GitHub</text>
-<rect x="1060" y="420" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
-<text x="1085" y="460" class="h">🛠 TOOLS</text>
-<text x="1095" y="500" class="s">✓ Git</text>
-<text x="1095" y="538" class="s">✓ VS Code</text>
-<text x="1095" y="576" class="s">✓ IntelliJ IDEA</text>
-<text x="1095" y="614" class="s">✓ Postman</text>
+<text x="85" y="460" class="head">AI &amp; DATA</text>
+<text x="95" y="505" class="item">• Python</text>
+<text x="95" y="540" class="item">• Pandas</text>
+<text x="95" y="575" class="item">• NumPy</text>
+<text x="95" y="610" class="item">• Power BI</text>
+
+<rect x="590" y="420" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
+<text x="615" y="460" class="head">CLOUD</text>
+<text x="625" y="505" class="item">• Docker</text>
+<text x="625" y="540" class="item">• GitHub</text>
+
+<rect x="1120" y="420" width="420" height="250" rx="18" fill="#111827" stroke="url(#acc)"/>
+<text x="1145" y="460" class="head">TOOLS</text>
+<text x="1155" y="505" class="item">• Git</text>
+<text x="1155" y="540" class="item">• VS Code</text>
+<text x="1155" y="575" class="item">• IntelliJ IDEA</text>
+<text x="1155" y="610" class="item">• Postman</text>
+</g>
 </svg>
